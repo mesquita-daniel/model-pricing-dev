@@ -9,6 +9,8 @@ defined on this [medium article](https://daniel-mesquita.medium.com/a-very-simpl
 pip install git+https://github.com/mesquita-daniel/model-pricing-dev
 ````
 
+The code was developed in Python 3.9 and might not work in older versions.
+
 ## Usage
 
 ````python
@@ -23,6 +25,6 @@ expected_profit(auc=0.8,scenario=scenario)
 # Expected profit increase when switching models
 expected_profit_increase(base_auc=0.5,new_model_auc=0.8,scenario=scenario)
 
-# Minimum AUC to change justify a change from a base model
+# Minimum AUC that justifies a change from a base model
 critical_auc(scenario=scenario,base_auc=0.5)
 ````
